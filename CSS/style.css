@@ -9,14 +9,59 @@
 .navbar {
     background-image: linear-gradient(to bottom, #0444dace, #2661e9c3 );
     box-shadow: 0px 1px 3px black;
+} 
+
+.container-fluid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-menu {
+    flex-grow: 0 !important;
 }
 
 .apresentacao {
     padding: 15px 0px 10px 10px;
 }
 
+div.video {
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative ;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 #carouselExample {
     background-color: #2661e9c3;
     padding: 10px;
     margin: 10px 0px 10px 0px;
+}
+
+
+.container-card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#card1 {
+    margin-bottom: 20px;
+}
+
+#card2 {
+    margin-bottom: 20px;
+}
+
+#card3 {
+    margin-bottom: 20px;
 }
