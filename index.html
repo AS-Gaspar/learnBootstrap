@@ -18,7 +18,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse main-menu" id="navbarNavAltMarkup">
             <div class="navbar-nav">
               <a class="nav-link active" aria-current="page" href="#">Início</a>
               <a class="nav-link" href="#">Conheça a Empresa</a>
@@ -33,12 +33,16 @@
 
       <section class="apresentacao">
         <h2>APRESENTAÇÃO</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi tempore magnam aspernatur veritatis quaerat minus expedita incidunt accusamus provident illo quis fugiat cupiditate, vel dicta modi architecto perspiciatis hic aliquam.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi tempore magnam aspernatur veritatis quaerat minus expedita incidunt accusamus provident illo quis fugiat cupiditate, vel dicta modi architecto perspiciatis hic aliquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quidem iusto fugit ducimus vel rem, ipsa modi delectus ipsam, deleniti inventore eligendi repellat, ad est id. Mollitia aliquid quam dolores! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut nemo a blanditiis saepe illo, aperiam hic alias aspernatur reprehenderit iusto sit quos, ex id! Id provident placeat animi illum libero! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum ut placeat doloribus nobis maxime reprehenderit alias inventore eligendi impedit! Aut provident quidem pariatur porro saepe exercitationem laborum minus reiciendis culpa.</p>
       </section>
+
+      <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=fk4vQN_4pEB_ETz2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
 
       <!-- Carousel -->
 
-      <div id="carouselExample" class="carousel slide">
+      <!--<div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="imgs/DJI_0027.JPG" class="d-block w-100" alt="...">
@@ -58,41 +62,64 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div>-->
 
 
       <!-- Card 1 -->
 
-      <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+      <section class="container-card">
+
+      <div class="card" id="card1" style="width: 36rem;">
+        <img src="imgs/DJI_0027.JPG" class="card-img-top" alt="Costa do pacífico">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title">Edifício Costa do pacífico</h5>
+          <p class="card-text">Localizado blablabla. Tantos metros quadrados blabla. Tantos apartamentos de tantos metros quadrados.  Previsão de entrega para 1 de Abril de 2480.</p>
+          <a href="#" class="btn btn-primary">Saiba Mais</a>
         </div>
       </div>
 
     <!-- Card 2 -->
 
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+    <div class="card" id="card2" style="width: 36rem;">
+        <img src="imgs/DJI_0082.JPG" class="card-img-top" alt="Vivace">
         <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Residencial vivace</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">Saiba Mais</a>
         </div>
         </div>
 
     <!-- Card 3 -->
 
-    <div class="card" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="...">
+    <div class="card" id="card3" style="width: 36rem;">
+        <img src="imgs/DJI_0237.JPG" class="card-img-top" alt="Firenze">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Firenze residence</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <a href="#" class="btn btn-primary">Saiba Mais</a>
         </div>
       </div>
+    </section>
+
+    <!-- Formulário -->
+       
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
